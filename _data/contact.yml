@@ -4,16 +4,16 @@
   type: github
   icon: 'fab fa-github-alt'
 -
-  type: twitter
-  icon: 'fab fa-twitter'
--
+  # type: twitter
+  # icon: 'fab fa-twitter'
+# -
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
 -
-  type: rss
-  icon: 'fas fa-rss'
-  noblank: true
+  # type: rss
+  # icon: 'fas fa-rss'
+  # noblank: true
 
 # Uncomment and complete the url below to enable more contact options
 # -
@@ -21,10 +21,10 @@
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your mastodon account page
 # -
-#   type: linkedin
-#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Linkedin homepage
-# -
-#   type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+  type: linkedin
+  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.linkedin.com/in/leonardo-mendes-de-souza-lima-18ab27120/'                  # Fill with your Linkedin homepage
+-
+  type: stack-overflow
+  icon: 'fab fa-stack-overflow'
+  url:  'https://pt.stackoverflow.com/users/196030/leonardo-lima'                  # Fill with your stackoverflow homepage
