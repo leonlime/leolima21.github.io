@@ -20,11 +20,13 @@ O pacote de simulação do manipulador JeRoTIMON foi construído através do sof
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s6215O7YVjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+<br>
 
 ## Demonstração no Mundo real
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sRJByJuQB2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+<br>
 
 ## Equipe de desenvolvimento
 <center>
@@ -44,13 +46,13 @@ O pacote de simulação do manipulador JeRoTIMON foi construído através do sof
       </thead>
       <tbody>
         <tr class="font-weight-bolder" style="text-align: center margin-top: 0">
-          <td width="25%"><center>Vinícius F.</center></td>
+          <td width="25%"><center><a href="https://github.com/ViniciusFelismino8">Vinícius F.</a></center></td>
           <td></td>
-          <td width="25%"><center>Leonardo L.</center></td>
+          <td width="25%"><center><a href="https://github.com/leolima21">Leonardo L.</a></center></td>
           <td></td>
-          <td width="25%"><center>Jéssica M.</center></td>
+          <td width="25%"><center><a href="https://github.com/JessMotta">Jéssica M.</a></center></td>
           <td></td>
-          <td width="25%"><center>miguel N.</center></td>
+          <td width="25%"><center><a href="https://github.com/migueelnery">Miguel N.</a></center></td>
         </tr>
       </tbody>
     </table>
@@ -73,13 +75,13 @@ O pacote de simulação do manipulador JeRoTIMON foi construído através do sof
       </thead>
       <tbody>
         <tr class="font-weight-bolder" style="text-align: center margin-top: 0">
-          <td width="25%"><center>Jean P.</center></td>
+          <td width="25%"><center><a href="https://github.com/jeanps95">Jean P.</a></center></td>
           <td></td>
-          <td width="25%"><center>Rodrigo F.</center></td>
+          <td width="25%"><center><a href="https://github.com/rodrigoformiga">Rodrigo F.</a></center></td>
           <td></td>
-          <td width="25%"><center>Tiago S.</center></td>
+          <td width="25%"><center><a href="https://github.com/">Tiago S.</a></center></td>
           <td></td>
-          <td width="25%"><center>Marco R.</center></td>
+          <td width="25%"><center><a href="https://github.com/mhar-vell">Marco R.</a></center></td>
         </tr>
       </tbody>
     </table>
@@ -87,9 +89,8 @@ O pacote de simulação do manipulador JeRoTIMON foi construído através do sof
 </div>
 </center>
 
-# Mais detalhes sobre o projeto
-Mais detalhes sobre a equipe e o projeto estão no site do Laboratório de Robótica e Sistemas Autônomos do SENAI CIMATEC:<br>
-[https://mhar-vell.github.io/rasc/project-jerotimon/](https://mhar-vell.github.io/rasc/project-jerotimon/)
-
 <br>
+## Mais detalhes sobre o projeto
+Mais detalhes sobre a equipe e o projeto estão no site do [Laboratório de Robótica e Sistemas Autônomos](https://mhar-vell.github.io/rasc/project-jerotimon/) do SENAI CIMATEC.
+
 
