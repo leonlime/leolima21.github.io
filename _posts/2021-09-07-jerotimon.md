@@ -48,7 +48,7 @@ O pacote de simulação do manipulador JeRoTIMON foi construído através do sof
         <tr class="font-weight-bolder" style="text-align: center margin-top: 0">
           <td width="25%"><center><a href="https://github.com/ViniciusFelismino8">Vinícius F.</a></center></td>
           <td></td>
-          <td width="25%"><center><a href="https://github.com/leolima21">Leonardo L.</a></center></td>
+          <td width="25%"><center><a href="https://github.com/leonlime">Leonardo L.</a></center></td>
           <td></td>
           <td width="25%"><center><a href="https://github.com/JessMotta">Jéssica M.</a></center></td>
           <td></td>
@@ -79,7 +79,7 @@ O pacote de simulação do manipulador JeRoTIMON foi construído através do sof
           <td></td>
           <td width="25%"><center><a href="https://github.com/rodrigoformiga">Rodrigo F.</a></center></td>
           <td></td>
-          <td width="25%"><center><a href="https://github.com/">Tiago S.</a></center></td>
+          <td width="25%"><center><a href="https://github.com/engtpsouza">Tiago S.</a></center></td>
           <td></td>
           <td width="25%"><center><a href="https://github.com/mhar-vell">Marco R.</a></center></td>
         </tr>
