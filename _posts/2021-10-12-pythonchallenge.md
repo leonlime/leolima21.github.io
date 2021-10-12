@@ -1,5 +1,5 @@
 ---
-title: Solução para 24 desafios em Python
+title: Soluções para 24 desafios em Python
 date: 2021-10-12 14:07:00 +/-TTTT
 categories: [Programação, Python]
 tags: [code, python, challenge]     # TAG names should always be lowercase
