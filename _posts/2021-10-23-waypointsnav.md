@@ -10,7 +10,7 @@ image:
   alt: waypointsnav
 ---
 
-Este conteúdo é ideal para quem está começando em ROS e por isto, além do video de demonstração estou compartilhando também o código que criei, com comentários para simplificar a compreensão. Este código refere-se à navegação entre pontos no mapa, primeiramente adicionando  estes pontos à uma lista e depois utilizando o movebase do Turtlebot para fazer o robô se mover por eles, sempre esperando chegar em um ponto antes de ir para o outro. A partir deste código pode-se desenvolver algoritmos de navegação mais complexos.
+Este conteúdo é ideal para quem está começando em ROS e por isto, além do video de demonstração estou compartilhando também o código que criei, com comentários para simplificar a compreensão. Este código refere-se à navegação entre pontos no mapa, primeiramente adicionando  estes à uma lista e depois utilizando o movebase do Turtlebot para fazer o robô se mover por eles, sempre esperando chegar em um ponto antes de ir para o outro. A partir deste código pode-se desenvolver algoritmos de navegação mais complexos.
 
 ## Vídeo:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V8V8sOzXaZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
