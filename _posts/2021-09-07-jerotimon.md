@@ -1,8 +1,8 @@
 ---
 title: Manipulador JeRoTIMON
 date: 2021-09-06 16:07:00 +/-TTTT
-categories: [Robótica, Manipuladores]
-tags: [robotica, manipulador, ROS, Gazebo, MoveIt]     # TAG names should always be lowercase
+categories: [Robotics, Manipulators]
+tags: [robotics, manipulators, ros, gazebo, moveit]     # TAG names should always be lowercase
 image:
   src: /assets/img/timon.png
   width: 400   # in pixels
