@@ -1,8 +1,8 @@
 ---
 title: Navegação por waypoints + código comentado
 date: 2021-10-23 14:07:00 +/-TTTT
-categories: [Robótica, Robótica móvel]
-tags: [robotica, ROS, Gazebo, navegacao]     # TAG names should always be lowercase
+categories: [Robotics, Mobile Robots]
+tags: [robotics, ros, gazebo, navigation]     # TAG names should always be lowercase
 image:
   src: /assets/img/waypoints.png
   width: 400   # in pixels

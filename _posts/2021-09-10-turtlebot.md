@@ -1,8 +1,8 @@
 ---
 title: Desafio Turtlebot
 date: 2021-09-11 15:07:00 +/-TTTT
-categories: [Robótica, Robótica móvel]
-tags: [robotica, ROS, Gazebo, visao, OpenCV, mapping]     # TAG names should always be lowercase
+categories: [Robotics, Mobile Robots]
+tags: [robotics, ros, gazebo, computer vision, opencv, mapping]     # TAG names should always be lowercase
 image:
   src: /assets/img/turtlebot.png
   width: 400   # in pixels
