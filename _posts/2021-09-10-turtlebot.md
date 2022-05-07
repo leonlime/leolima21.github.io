@@ -1,5 +1,5 @@
 ---
-title: Desafio Turtlebot
+title: Turtlebot Challenge
 date: 2021-09-11 15:07:00 +/-TTTT
 categories: [Robotics, Mobile Robots]
 tags: [robotics, ros, gazebo, computer vision, opencv, mapping]     # TAG names should always be lowercase
@@ -10,12 +10,12 @@ image:
   alt: turtlebot
 ---
 
-Este desafio individual fez parte do curso de pós graduação em Robótica e Sistemas Autônomos do SENAI CIMATEC. O desafio proposto foi o de usar o robô Turtlebot  para realizar mapeamento indoor e assim localizar 3 tags espalhadas em locais aleatórios pelo mapa. Ao encontrar a localização das 3 tags, o robô deveria navegar entre a posição das tags, como se estivesse monitorando cada uma delas.
+This challenge was part of the post-graduation course in Robotics and Autonomous Systems at SENAI CIMATEC. The proposed challenge was to use the Turtlebot robot to perform indoor mapping and thus locate 3 tags scattered in random places on the map. When finding the location of the 3 tags, the robot should navigate between the tag's positions, as if it were monitoring each one of them.
 
-## Video da navegação
+## Navigation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ornr4kXWETE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
-## Video do Rviz e câmera 
+## Rviz and camera 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U6Uo1FcHxVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

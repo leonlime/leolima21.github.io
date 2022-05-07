@@ -1,5 +1,5 @@
 ---
-title: Navegação por waypoints + código comentado
+title: Waipoints navigation + Commented code
 date: 2021-10-23 14:07:00 +/-TTTT
 categories: [Robotics, Mobile Robots]
 tags: [robotics, ros, gazebo, navigation]     # TAG names should always be lowercase
@@ -10,12 +10,12 @@ image:
   alt: waypointsnav
 ---
 
-Este conteúdo é ideal para quem está começando em ROS e por isto, além do video de demonstração estou compartilhando também o código que criei, com comentários para simplificar a compreensão. Este código refere-se à navegação entre pontos no mapa, primeiramente adicionando  estes à uma lista e depois utilizando o movebase do Turtlebot para fazer o robô se mover por eles, sempre esperando chegar em um ponto antes de ir para o outro. A partir deste código pode-se desenvolver algoritmos de navegação mais complexos.
+This content is ideal for those who are starting in ROS, and for this reason, besides the demo video I am also sharing the code I created, with comments to simplify the understanding. This code is about navigation between points on the map, first adding them to a list and then using Turtlebot's movebase to make the robot move through them, always hoping to reach one point before going to another. From this code, more complex navigation algorithms can be developed.
 
-## Vídeo:
+## Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V8V8sOzXaZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Código comentado:
+## Commented Code
 ```python
 #!/usr/bin/env python3
 import rospy
@@ -25,18 +25,18 @@ from move_base_msgs.msg import MoveBaseActionGoal, MoveBaseAction, MoveBaseGoal,
 
 class Turtlebot:
   def __init__(self):
-    # lista que vai receber os waypoints:
+    # list that will receive the waypoints:
     self.waypoints = []
-    # iniciacao do node waypoints nav:
+    # starting node waypoints nav:
     rospy.init_node('waypointsnav')
-    # instancia do objeto que vai publicar no topico move base:
+    # instance of the object that will publish in the topical move base:
     self.move_base_pub = rospy.Publisher("/move_base_simple/goal", PoseStamped, queue_size=1)
 
-  # metodo para adicionar novos pontos na lista:
+  # method for adding new points to the list::
   def add_waypoint(self, list):
     self.waypoints.append(list)
 
-  # publicar a posicao no move base, levando em consideracao a coordenada (0,0) do mapa:
+  # publish the position on the move_base, taking into account the map coordinate (0,0):
   def goal_move_base(self, pose_x, pose_y, pose_z, pose_w):
     msg_move_to_goal = PoseStamped()
     msg_move_to_goal.pose.position.x = pose_x 
@@ -49,7 +49,7 @@ class Turtlebot:
 
     self.move_base_pub.publish(msg_move_to_goal)
     
-  # navegar entre os pontos, esperando chegar em um ponto antes de ir para o outro:
+  # navigate between the points, waiting to arrive at one point before going to the other:
   def nav_into_points(self):
     for i in range(len(self.waypoints)):
       self.goal_move_base(self.waypoints[i][0], self.waypoints[i][1], self.waypoints[i][2], self.waypoints[i][3])
@@ -66,10 +66,9 @@ if __name__ == '__main__':
   
 ```
 
-## Como executar:
-O pacote encontra-se [neste repositório](https://github.com/leonlime/turtlenav) e para executar a navegação basta clonar o pacote para o seu workspace e seguir os comandos abaixo:
+## How to execute:
+To execute this code, just clone [this repository](https://github.com/leonlime/turtlenav) to your workspace and follow the commands below:
 
 ```roslaunch turtlenav turtlenav_gazebo.launch```
 
 ```rosrun turtlenav waypoints_nav.py```
-
