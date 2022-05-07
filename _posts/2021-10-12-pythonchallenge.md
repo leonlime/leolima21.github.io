@@ -1,5 +1,5 @@
 ---
-title: Soluções para 24 desafios em Python
+title: Solutions to 24 Python Challenges
 date: 2021-10-12 14:07:00 +/-TTTT
 categories: [Coding, Python]
 tags: [code, python, challenge]     # TAG names should always be lowercase
@@ -10,7 +10,6 @@ image:
   alt: pythonchallenge
 ---
 
-Recentemente consegui completar todos os 24 desafios do site [Python Principles](https://pythonprinciples.com/challenges/) e resolvi compartilhar as soluções aqui neste portfólio, para futuras consultas e também para ajudar os que estão começando ou estudando esta linguagem de programação.
+I recently managed to complete all the 24 challenges on the [Python Principles website](https://pythonprinciples.com/challenges/) and  i decided to share the solutions here in this portfolio for future reference and also to help those who are starting or studying this programming language.
 
-As soluções encontram-se [neste link](https://github.com/leonlime/pythonchallenge), em um repositório criado em meu Github.
-
+The solutions can be found [here](https://github.com/leonlime/pythonchallenge), in a repository created on my Github.
