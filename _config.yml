@@ -19,12 +19,10 @@ timezone: America/Bahia
 
 title: Leonardo Lima                          # the main title
 
-tagline: Robotics and Engineering  # it will display as the sub-title
+tagline: Robotics and Engineering from Brazil  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  A portfolio about my robotics projects.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://leonlime.github.io'
