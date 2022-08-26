@@ -1,0 +1,61 @@
+---
+title: A simple way to use a ROS Humble Docker
+date: 2022-08-25 19:33:00 +/-TTTT
+categories: [Robotics]
+tags: [robotics, ros2, humble, docker]     # TAG names should always be lowercase
+pin: false
+image:
+  src: /assets/img/docker.png
+  width: 400   # in pixels
+  height: 400   # in pixels
+  alt: docker
+---
+
+According to the [official documentation](https://docs.docker.com/get-started/overview/), Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production. 
+
+Now that you know what a docker is and what it is used for, this simple tutorial will show you how to install and deal with a docker, dragging and dropping files inside of a docker from your original operating system.
+
+## Install Docker, download image and create a container
+### Install Docker
+```terminal
+$ sudo apt install docker.io
+```
+
+### Download ROS Humble image
+```terminal
+$ docker pull osrf/ros:humble-desktop
+```
+
+### Create a container using the ROS Humble image
+First, you need to create a folder to be the docker `/home` folder:
+```terminal
+$ mkdir example_folder
+```
+
+Create a container using the folder:
+```terminal
+$ docker run -it -v /example_folder:/home osrf/ros:humble-desktop
+```
+
+## Using your ROS Humble container 
+
+Use this command to know the name of your container (in this case, `exciting_dubinsky`): 
+
+```terminal
+$ docker container ls -a
+CONTAINER ID   IMAGE                     COMMAND                  CREATED       STATUS                   PORTS     NAMES
+2dfc7fbc6e21   osrf/ros:humble-desktop   "/ros_entrypoint.sh …"   4 weeks ago   Up About an hour                   exciting_dubinsky
+```
+Start and exec your container:
+```terminal
+$ docker container start exciting_dubinsky
+$ docker container exec -it exciting_dubinsky bash
+```
+**Inside the docker** terminal, use this command to able manipulate files outside the docker:
+```terminal
+# chmod -R 777 /home
+```
+
+That is all, now you can create the workspaces using the folder you created on your original OS and just `colcon build` using a docker terminal.
+
+Thanks to use this tutorial and don't forget, if something is wrong you can contact me on my e-mail or Github account.
